@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    padding: 0px;
+}
+
+.videoInfo {
+    margin: 0px 0px 0px 30px;
+    flex-direction: column;
+}
+
+h3 {
+    margin: 0px;
+}
+
+p{
+    color: gray;
+    margin: 5px 0px;
+}
+
+li{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+    max-width: 900px;
+    margin: 0px 0px 10px 10px;
+}
+
+input{
+    font-size: 1em;
+}
+
+img{
+    width: 120px;
+    height: 90px;
+    border-radius: 15px;
+}
+
+button {
+    font-size: 1em;
+}
+
+#moreResults{
+    visibility: hidden;
+}
